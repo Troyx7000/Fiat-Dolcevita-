@@ -1,0 +1,13 @@
+Reddit Analysis (Reddit_Analysis/YuhongREddit-1; Sentiment Analysis.ipynb)
+Purpose: Collect and analyse Reddit comments related to Fiat Dolcevita to understand consumer opinions and sentiments.
+
+YouTube Analysis - Abarth Competitor Analysis (Abarth_500/Competitor_SA.ipynb)
+Purpose: Analyse YouTube comments specifically related to Abarth 500 to understand its perception relative to Fiat
+
+Each analysis involves the following key components:
+
+Data Collection: Data is gathered from YouTube, and Reddit using APIs or scrapers, focusing on user-generated content about Fiat Dolcevita, and Abarth 500.
+Data Preprocessing: Includes cleaning, tokenization, and stopword removal.
+Topic Modeling: LDA (Latent Dirichlet Allocation) is used to identify key topics and themes within the data.
+Sentiment Analysis: VADER is applied to determine the sentiment of the collected comments.
+Summarization: A BART-based model is used to summarize identified topics and themes, providing concise overviews of public discussions.
